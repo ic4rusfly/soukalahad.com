@@ -1,0 +1,24 @@
+# Dependencies
+vendor/
+node_modules/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Local state
+/tmp/
+/cache/
+/logs/
+*.log
+
+# Dumps (keep schemas, not data)
+*.sql.gz
+dump.sql
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

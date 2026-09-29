@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The souk, delivered · Souk Al Ahad — design preview</title>
+<!-- Static preview mirror of the EN shop page (production is PHP at /en|/fr|/ar/shop) -->
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/public/assets/css/main.css">
+</head>
+<body class="page-shop">
+<div class="gate-strip" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><svg class="glyph" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 30V14C4 8 9 3 16 3s12 5 12 11v16h-7V15c0-3-2-5-5-5s-5 2-5 5v15H4Z" fill="currentColor" opacity=".18"/><path d="M4 30V14C4 8 9 3 16 3s12 5 12 11v16M4 30h7V15c0-3 2-5 5-5s5 2 5 5v15h7M4 30h24" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg> <span>سوق الأحد · <b>SoukAlAhad</b></span></a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="article.html">Visit</a>
+    <a href="article.html">History</a>
+    <a href="map.html">Map</a>
+    <a href="shop.html" aria-current="page">Shop</a>
+    <a href="tour.html">360° Tour</a>
+  </nav>
+  <div class="langs" aria-label="Languages">
+    <a href="#" aria-current="true">EN</a><a href="#">FR</a><a href="#">AR</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="section-head">
+  <h1>The souk, delivered</h1>
+  <p>The souk’s products, ordered the Moroccan way — build a list, send it in one WhatsApp message.</p>
+</section>
+
+<div class="shop-note">
+  <span><span class="dot"></span>Cash on delivery across Morocco</span>
+  <span><span class="dot"></span>Worldwide shipping from Agadir</span>
+  <span><span class="dot"></span>Pilot catalogue — curated at the source</span>
+</div>
+
+<ul id="products" class="products"
+    data-products="/public/assets/data/products.json"
+    data-lang="en"
+    data-currency="MAD"
+    data-add="Add to list"
+    aria-live="polite"></ul>
+
+<div id="basket" class="basket-bar" aria-label="Order list">
+  <div class="basket-inner">
+    <p class="basket-info" id="basket-info"></p>
+    <div class="basket-actions">
+      <button class="btn btn-ghost btn-sm" id="basket-clear">Clear</button>
+      <button class="btn btn-whatsapp btn-sm" id="basket-send">Send order via WhatsApp</button>
+    </div>
+  </div>
+</div>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-tag">Content © 2026 SoukAlAhad — built gate by gate in Agadir. · Built in Agadir, for the world.</p>
+</footer>
+
+<script type="module" src="/public/assets/js/shop.js"></script>
+</body>
+</html>
