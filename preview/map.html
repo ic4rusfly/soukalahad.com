@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The interactive map · Souk Al Ahad — design preview</title>
+<!-- Static preview mirror of the EN map page (production is PHP at /en|/fr|/ar/map) -->
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/public/assets/css/main.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+</head>
+<body class="page-map">
+<div class="gate-strip" aria-hidden="true"></div>
+
+<header class="site-header">
+  <a class="brand" href="index.html"><svg class="glyph" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M4 30V14C4 8 9 3 16 3s12 5 12 11v16h-7V15c0-3-2-5-5-5s-5 2-5 5v15H4Z" fill="currentColor" opacity=".18"/><path d="M4 30V14C4 8 9 3 16 3s12 5 12 11v16M4 30h7V15c0-3 2-5 5-5s5 2 5 5v15h7M4 30h24" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg> <span>سوق الأحد · <b>SoukAlAhad</b></span></a>
+  <nav class="site-nav" aria-label="Main">
+    <a href="index.html">Home</a>
+    <a href="article.html">Visit</a>
+    <a href="article.html">History</a>
+    <a href="map.html" aria-current="page">Map</a>
+    <a href="shop.html">Shop</a>
+    <a href="tour.html">360° Tour</a>
+  </nav>
+  <div class="langs" aria-label="Languages">
+    <a href="#" aria-current="true">EN</a><a href="#">FR</a><a href="#">AR</a>
+  </div>
+</header>
+
+<main id="main">
+<section class="section-head">
+  <h1>The interactive map</h1>
+  <p>Gate 1 to Gate 13 — search, filter and find your wing before you go.</p>
+</section>
+
+<div class="map-toolbar">
+  <input class="map-search" type="search" id="map-search" placeholder="Search a gate, a craft, a product…" aria-label="Search">
+  <div class="chips" id="map-filters" role="group" aria-label="Filters">
+    <button class="chip" data-cat="all" aria-pressed="true">All gates</button>
+    <button class="chip" data-cat="food" aria-pressed="false">Food &amp; produce</button>
+    <button class="chip" data-cat="crafts" aria-pressed="false">Crafts</button>
+    <button class="chip" data-cat="fashion" aria-pressed="false">Fashion &amp; leather</button>
+    <button class="chip" data-cat="jewellery" aria-pressed="false">Jewellery &amp; silver</button>
+    <button class="chip" data-cat="electronics" aria-pressed="false">Electronics</button>
+    <button class="chip" data-cat="beauty" aria-pressed="false">Argan &amp; beauty</button>
+    <button class="chip" data-cat="household" aria-pressed="false">Household</button>
+  </div>
+</div>
+
+<div id="map" class="map-viewport"
+     data-gates="/public/assets/data/gates.json"
+     data-lang="en"
+     data-read="Read the gate guide"
+     data-article-base="#"></div>
+
+<p class="map-note">Gate positions are approximate until the field survey — wings and specialities are exact. Tap a gate for its guide.</p>
+</main>
+
+<footer class="site-footer">
+  <p class="footer-tag">Content © 2026 SoukAlAhad — built gate by gate in Agadir. · Built in Agadir, for the world.</p>
+</footer>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+<script type="module" src="/public/assets/js/map.js"></script>
+</body>
+</html>

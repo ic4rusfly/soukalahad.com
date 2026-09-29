@@ -1,0 +1,109 @@
+{
+  "_note": "Gate positions are APPROXIMATE (perimeter estimate) until the Phase 2 field survey with GPS. Wings, names and specialities are exact. Update lat/lng on the photo walk.",
+  "gates": [
+    {
+      "n": 1,
+      "name": { "en": "Bab Tombouctou", "fr": "Bab Tombouctou", "ar": "باب تمبكتو" },
+      "specialty": { "en": "Spices, herbs & olives", "fr": "Épices, herbes et olives", "ar": "التوابل والأعشاب والزيتون" },
+      "cat": "food",
+      "article": "gate-1-bab-tombouctou-spices",
+      "lat": 30.4138, "lng": -9.5815
+    },
+    {
+      "n": 2,
+      "name": { "en": "Bab Taroudant", "fr": "Bab Taroudant", "ar": "باب تارودانت" },
+      "specialty": { "en": "Fresh fruit & vegetables", "fr": "Fruits et légumes frais", "ar": "الفواكه والخضر الطازجة" },
+      "cat": "food",
+      "article": "gate-2-bab-taroudant-produce",
+      "lat": 30.4140, "lng": -9.5798
+    },
+    {
+      "n": 3,
+      "name": { "en": "Bab Sijilmassa", "fr": "Bab Sijilmassa", "ar": "باب سجلماسة" },
+      "specialty": { "en": "Pottery, wood & wrought iron", "fr": "Poterie, bois et fer forgé", "ar": "الفخار والخشب والحديد المطاوع" },
+      "cat": "crafts",
+      "article": "gate-3-bab-sijilmassa-pottery",
+      "lat": 30.4136, "lng": -9.5787
+    },
+    {
+      "n": 4,
+      "name": { "en": "Bab Tamdoult", "fr": "Bab Tamdoult", "ar": "باب تمدولت" },
+      "specialty": { "en": "Berber carpets & textiles", "fr": "Tapis berbères et textiles", "ar": "الزرابي الأمازيغية والمنسوجات" },
+      "cat": "crafts",
+      "article": "gate-4-bab-tamdoult-carpets",
+      "lat": 30.4130, "lng": -9.5783
+    },
+    {
+      "n": 5,
+      "name": { "en": "Bab Igli", "fr": "Bab Igli", "ar": "باب إݣلي" },
+      "specialty": { "en": "Leather, bags & babouches", "fr": "Cuir, sacs et babouches", "ar": "الجلد والحقائب والبلغة" },
+      "cat": "fashion",
+      "article": "gate-5-bab-igli-leather",
+      "lat": 30.4124, "lng": -9.5782
+    },
+    {
+      "n": 6,
+      "name": { "en": "The fashion gate", "fr": "La porte de la mode", "ar": "باب الأزياء" },
+      "specialty": { "en": "Djellabas & ready-to-wear", "fr": "Djellabas et prêt-à-porter", "ar": "الجلابيب والملابس الجاهزة" },
+      "cat": "fashion",
+      "article": "gate-6-fashion-djellabas",
+      "lat": 30.4118, "lng": -9.5785
+    },
+    {
+      "n": 7,
+      "name": { "en": "Bab Oued Noun", "fr": "Bab Oued Noun", "ar": "باب واد نون" },
+      "specialty": { "en": "Silver, amber & gemstones", "fr": "Argent, ambre et pierres", "ar": "الفضة والكهرمان والأحجار" },
+      "cat": "jewellery",
+      "article": "gate-7-bab-oued-noun-silver",
+      "lat": 30.4114, "lng": -9.5792
+    },
+    {
+      "n": 8,
+      "name": { "en": "Bab Tanger", "fr": "Bab Tanger", "ar": "باب طنجة" },
+      "specialty": { "en": "Electronics & accessories", "fr": "Électronique et accessoires", "ar": "الإلكترونيات والملحقات" },
+      "cat": "electronics",
+      "article": "gate-8-bab-tanger-electronics",
+      "lat": 30.4112, "lng": -9.5800
+    },
+    {
+      "n": 9,
+      "name": { "en": "Bab Imouzzar", "fr": "Bab Imouzzar", "ar": "باب إيموزار" },
+      "specialty": { "en": "Argan oil, soaps & amlou", "fr": "Huile d’argan, savons et amlou", "ar": "زيت الأركان والصابون والأملو" },
+      "cat": "beauty",
+      "article": "gate-9-bab-imouzzar-argan-soaps",
+      "lat": 30.4112, "lng": -9.5813
+    },
+    {
+      "n": 10,
+      "name": { "en": "Bab Oujda", "fr": "Bab Oujda", "ar": "باب وجدة" },
+      "specialty": { "en": "Butchers & poultry", "fr": "Bouchers et volailles", "ar": "الجزّارون والدواجن" },
+      "cat": "food",
+      "article": "gate-10-bab-oujda-butchers",
+      "lat": 30.4115, "lng": -9.5819
+    },
+    {
+      "n": 11,
+      "name": { "en": "Bab Tiznit", "fr": "Bab Tiznit", "ar": "باب تزنيت" },
+      "specialty": { "en": "Fish & seafood market", "fr": "Marché au poisson", "ar": "سوق السمك والبحريات" },
+      "cat": "food",
+      "article": "gate-11-bab-tiznit-fish",
+      "lat": 30.4121, "lng": -9.5822
+    },
+    {
+      "n": 12,
+      "name": { "en": "Tools & kitchenware", "fr": "Outils et ustensiles", "ar": "الأدوات وأدوات المطبخ" },
+      "specialty": { "en": "Cooking tagines, couscoussiers, teapots", "fr": "Tajines, couscoussiers, théières", "ar": "طواجين الطهي والكسكسيات والبرّادات" },
+      "cat": "household",
+      "article": "gate-12-kitchenware-tools",
+      "lat": 30.4129, "lng": -9.5820
+    },
+    {
+      "n": 13,
+      "name": { "en": "Bab Demnat — main south gate", "fr": "Bab Demnat — grande porte sud", "ar": "باب دمنات — الباب الجنوبي الرئيسي" },
+      "specialty": { "en": "The great southern entrance", "fr": "La grande entrée sud", "ar": "المدخل الجنوبي العظيم" },
+      "cat": "all",
+      "article": "gate-13-bab-demnat-south-gate",
+      "lat": 30.4111, "lng": -9.5806
+    }
+  ]
+}

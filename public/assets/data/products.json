@@ -1,0 +1,79 @@
+{
+  "_note": "PILOT CATALOGUE. Prices are honest source prices in MAD (see PLAN.md price ladder). Replace 'whatsapp' with the real order line (2126XXXXXXXX) before launch. Swap in real merchant products + photos during Phase 3a.",
+  "whatsapp": "212600000000",
+  "currency": "MAD",
+  "products": [
+    {
+      "id": "argan-culinary-100",
+      "cat": "beauty",
+      "gate": 9,
+      "price": 120,
+      "name": { "en": "Culinary argan oil", "fr": "Huile d’argan culinaire", "ar": "زيت أركان للطعام" },
+      "desc": { "en": "Roasted-kernel, amber, nutty — the finishing oil of the Souss.", "fr": "Noyaux torréfiés, ambre, noisette — l’huile de finition du Souss.", "ar": "نواة محمصة، كهرمانية، بنكهة الجوز — زيت سوس للتشطيب." },
+      "unit": { "en": "100 ml bottle", "fr": "flacon 100 ml", "ar": "قنينة 100 مل" }
+    },
+    {
+      "id": "argan-cosmetic-100",
+      "cat": "beauty",
+      "gate": 9,
+      "price": 130,
+      "name": { "en": "Cosmetic argan oil", "fr": "Huile d’argan cosmétique", "ar": "زيت أركان تجميلي" },
+      "desc": { "en": "Cold-pressed from raw kernels. Light gold, absorbs in a minute.", "fr": "Pressée à froid, noyaux crus. Or clair, s’absorbe en une minute.", "ar": "معصور على البارد من نواة خام. ذهبي فاتح، يُمتص في دقيقة." },
+      "unit": { "en": "100 ml bottle", "fr": "flacon 100 ml", "ar": "قنينة 100 مل" }
+    },
+    {
+      "id": "amlou-250",
+      "cat": "beauty",
+      "gate": 9,
+      "price": 80,
+      "name": { "en": "Amlou", "fr": "Amlou", "ar": "أملو" },
+      "desc": { "en": "Argan oil, roasted almonds, honey. Morocco’s answer to everything.", "fr": "Huile d’argan, amandes grillées, miel. La réponse marocaine à tout.", "ar": "زيت أركان ولوز محمص وعسل. جواب المغرب على كل شيء." },
+      "unit": { "en": "250 g jar", "fr": "pot de 250 g", "ar": "علبة 250 غ" }
+    },
+    {
+      "id": "ras-el-hanout-100",
+      "cat": "food",
+      "gate": 1,
+      "price": 25,
+      "name": { "en": "Ras el hanout", "fr": "Ras el hanout", "ar": "رأس الحانوت" },
+      "desc": { "en": "The 30-spice blend, ground fresh at the souk.", "fr": "Le mélange de 30 épices, moulu frais au souk.", "ar": "خلطة الثلاثين نوعًا، تُطحن طازجة في السوق." },
+      "unit": { "en": "100 g pouch", "fr": "sachet 100 g", "ar": "كيس 100 غ" }
+    },
+    {
+      "id": "saffron-1g",
+      "cat": "food",
+      "gate": 1,
+      "price": 40,
+      "name": { "en": "Saffron, Taliouine", "fr": "Safran de Taliouine", "ar": "زعفران تالوين" },
+      "desc": { "en": "One gram of the real thing, from Morocco’s saffron capital.", "fr": "Un gramme du vrai, de la capitale marocaine du safran.", "ar": "غرام واحد من الأصلي، من عاصمة الزعفران المغربية." },
+      "unit": { "en": "1 g sealed", "fr": "1 g scellé", "ar": "1 غ مختوم" }
+    },
+    {
+      "id": "tagine-cooking-s",
+      "cat": "crafts",
+      "gate": 12,
+      "price": 70,
+      "name": { "en": "Cooking tagine", "fr": "Tajine de cuisson", "ar": "طاجن للطهي" },
+      "desc": { "en": "Unglazed terracotta, fire-ready — where cooks shop, not tourists.", "fr": "Terre cuite non émaillée, prête pour le feu — là où cuisinent les cuisiniers.", "ar": "طين مجرد جاهز للنار — من حيث يشتري الطباخون لا السياح." },
+      "unit": { "en": "size S", "fr": "taille S", "ar": "مقاس صغير" }
+    },
+    {
+      "id": "babouches-classic",
+      "cat": "fashion",
+      "gate": 5,
+      "price": 90,
+      "name": { "en": "Leather babouches", "fr": "Babouches en cuir", "ar": "بلغة جلدية" },
+      "desc": { "en": "The pointy classic, real leather, stitched not glued.", "fr": "Le classique pointu, vrai cuir, cousu et non collé.", "ar": "الكلاسيكية المدببة، جلد حقيقي، مخيطة لا ملصقة." },
+      "unit": { "en": "per pair", "fr": "la paire", "ar": "للزوج" }
+    },
+    {
+      "id": "leather-tote",
+      "cat": "fashion",
+      "gate": 5,
+      "price": 350,
+      "name": { "en": "Leather tote bag", "fr": "Cabas en cuir", "ar": "حقيبة يد جلدية" },
+      "desc": { "en": "Full-grain, reinforced straps, ages beautifully.", "fr": "Cuir pleine fleur, anses renforcées, vieillit magnifiquement.", "ar": "جلد كامل الحبيبات، أحزمة معززة، يشيخ بجمال." },
+      "unit": { "en": "each", "fr": "pièce", "ar": "للقطعة" }
+    }
+  ]
+}
