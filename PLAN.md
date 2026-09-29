@@ -215,6 +215,7 @@ story(id, merchant_id, media_url, lang, transcript, duration, consent_given)
 
 - **2026-09-28/29 (sessions 1–5):** plan + Phase 0 skeleton + Phase 1 core (19 articles × 3 languages, 13-gates series complete) + **full-site build pulled forward on founder decision**: modern theme (light/dark), Leaflet map v1 with 13 gates + filters (approx. positions pending field survey), WhatsApp-order shop pilot (products.json, order-list checkout), Marzipano 360° tour v1 (AI preview scenes, real captures pending photo walk), service worker for offline, all coming-soon pages eliminated. Branch pushed to GitHub.
 - **Next:** deploy to hosting (DEPLOY.md), photo walk (gates GPS + tour scenes + article photos), set real WhatsApp line, remaining practical guides.
+- **2026-09-29 (session 6):** **Phase 1 v1 complete** — 8 final practical guides × 3 languages (safety, hours/Monday, crowd science, Ramadan, price list, etiquette & greetings incl. Tachelhit, what to eat, one day in Agadir). Manual totals **27 articles × 3 languages = 81 files**. Branch pushed and PR #1 merged to `main`.
 
 ## 16. This week's checklist (week of Sep 29, 2026)
 

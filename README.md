@@ -30,7 +30,7 @@ PLAN.md      the master plan
 
 ## Phase status
 - **Phase 0 — Foundations: done** (multilingual skeleton with RTL)
-- **Phase 1 — The Manual: core shipped** — 19 unique articles × EN/FR/AR = 57 files (history core, complete 13-gates series, practical guides)
+- **Phase 1 — The Manual: COMPLETE (v1)** — **27 unique articles × EN/FR/AR = 81 files**: history core (3), the complete 13-gates series, and 11 practical guides (first-visit plan, bargaining, argan, safety, hours/Monday, crowds, Ramadan, price list, etiquette & greetings, what to eat, one day in Agadir)
 - **Phase 2 — Map: v1 live** — Leaflet + `gates.json`, search + category filters, gate popups linked to guides (positions approximate until the field survey)
 - **Phase 3 — Shop: pilot live** — `products.json` catalogue, order-list builder, single-message WhatsApp checkout, COD + worldwide notes
 - **Phase 4 — 360° Tour: v1 live** — Marzipano equirect scenes, scene switcher, fullscreen; service worker (`sw.js`) makes the site work offline after first visit
