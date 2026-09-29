@@ -35,13 +35,18 @@ FTP (FileZilla) or the host's file manager:
 
 ```
 https://soukalahad.com            → redirects to /en/ (or /fr/, /ar/ by browser)
-https://soukalahad.com/en/        → homepage, roadmap + "Latest from the manual"
+https://soukalahad.com/en/        → homepage: hero, stats, explore cards, latest articles
 https://soukalahad.com/ar/history/agadir-earthquake-1960  → RTL article
-https://soukalahad.com/en/visit/  → guide index (8 articles)
+https://soukalahad.com/en/visit/  → guide index (19 articles)
 https://soukalahad.com/fr/visit/bargaining-101            → article page
+https://soukalahad.com/en/map     → Leaflet map, 13 gate pins, filters + search work
+https://soukalahad.com/ar/shop    → product cards, order list, WhatsApp checkout (RTL)
+https://soukalahad.com/en/tour    → 360° scenes render, drag + fullscreen work
 https://soukalahad.com/en/nope    → 404 "Lost in the souk?"
 https://soukalahad.com/sitemap.xml→ XML with hreflang alternates
 ```
+
+**Also before launch:** set the real WhatsApp order line in `public/assets/data/products.json` (`"whatsapp": "2126XXXXXXXX"`).
 
 ## 6. Search engines
 
